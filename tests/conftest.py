@@ -21,8 +21,9 @@ board_capabilities = {
     "project_babble": ["wireless", "wired"],
     "venti_N8R8": ["wireless", "wired"],
     "seed_studio": ["wireless", "wired"],
-    "wrooms3": ["wireless", "wired"],
-    "wrooms3QIO": ["wireless", "wired"],
+    "wrooms3N8R2": ["wireless", "wired"],
+    "wrooms3QION8R2": ["wireless", "wired"],
+    "wrooms3N8R8": ["wireless", "wired"],
     "wrover": ["wireless", "wired"],
 }
 
