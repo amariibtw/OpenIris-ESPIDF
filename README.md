@@ -1,4 +1,4 @@
-| Supported Targets | ESP32-S3 · Project Babble · FaceFocusVR · ESP32CAM · ESP32-AIThinker · ESP32-M5Stack · ESP-EYE · Wroom s3 · Wroom s3 QIO · WROVER|
+| Supported Targets | ESP32-S3 · Project Babble · Venti · FaceFocusVR · ESP32CAM · ESP32-AIThinker · ESP32-M5Stack · ESP-EYE · Wroom s3 · Wroom s3 QIO · WROVER|
 | ----------------- | --------------------------------------- |
 
 ## OpenIris-ESPIDF
