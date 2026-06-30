@@ -19,6 +19,7 @@ board_capabilities = {
     "facefocusvr_eye_R": ["wired", "measure_current"],
     "facefocusvr_face": ["wired", "measure_current"],
     "project_babble": ["wireless", "wired"],
+    "venti_N8R8": ["wireless", "wired"],
     "seed_studio": ["wireless", "wired"],
     "wrooms3": ["wireless", "wired"],
     "wrooms3QIO": ["wireless", "wired"],
