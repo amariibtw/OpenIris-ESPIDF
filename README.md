@@ -1,4 +1,4 @@
-| Supported Targets | ESP32-S3 · Project Babble · Venti · FaceFocusVR · ESP32CAM · ESP32-AIThinker · ESP32-M5Stack · ESP-EYE · Wroom s3 · Wroom s3 QIO · WROVER|
+| Supported Targets | ESP32-S3 · Project Babble · Venti · FaceFocusVR · ESP32CAM · ESP32-AIThinker · ESP32-M5Stack · ESP-EYE · Wroom s3 N8R2 · Wroom s3 QIO N8R2 · Wroom s3 N8R8 · WROVER|
 | ----------------- | --------------------------------------- |
 
 ## OpenIris-ESPIDF
@@ -94,6 +94,7 @@ Notes:
 - Board key = relative path under `boards/` with `/` replaced by `_` (and duplicate tail segments collapsed, e.g. `project_babble/project_babble` -> `project_babble`).
 - `--diff` shows what will change vs the current `sdkconfig`.
 - You can also pass partial or path‑like inputs (e.g. `facefocusvr/eye_L`), the tool normalizes them.
+- ESP32‑S3 WROOM‑1 (e.g. Freenove) users: pick the board by the marking on your module. **N8R2** (2MB quad PSRAM) → `wrooms3N8R2` or `wrooms3QION8R2`; **N8R8** (8MB octal PSRAM) → `wrooms3N8R8`. Flashing the wrong variant aborts at boot with `quad_psram: PSRAM ID read error` / `Failed to init external RAM!`.
 
 ### 2) Build & flash
 
