@@ -107,17 +107,3 @@ jobs:
         with:
           files: build/*.zip
           prerelease: ${{contains(github.ref_type, 'rc')}}
-
-  cleanup:
-    needs: [setup, release]
-    strategy:
-      fail-fast: false
-      matrix: ${{fromJson(needs.setup.outputs.matrix)}}
-    name: Cleanup actions
-    runs-on: ubuntu-latest
-    timeout-minutes: 10
-    steps:
-      - name: "♻️ remove build artifacts"
-        uses: geekyeggo/delete-artifact@v5
-        with:
-          name: ${{matrix.firmware_config.board_name}}-firmware
